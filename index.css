@@ -1,10 +1,60 @@
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 @font-face {
     font-family: CT;
     src: url(CursedTimerUlil-Aznm.ttf);
 }
 body {
     margin: 0;
+    background-color: #1B244A;
+    padding: 3vw;
 }
 
 .container {
@@ -19,18 +69,49 @@ h1, h2, h3, h4, h5 {
     font-family: CT;
     color: #9AABD8;
     background-color: transparent;
-    border-radius: 3px;
-    height: 30px;
-    width: 30px;
+    border-radius: 2vw;
+    height: 10vw;
+    width: 10vw;
     border-color: #9AABD8;
     border-style: solid;
+    font-size: 4vw;
 }
+.add > button:hover {
+    color: #ffffff;
+    background-color: hsla(226, 43%, 73%, 0.15);
+}
+
 .score {
-    font-size: 60px;
-    text-align: center;
+    font-size: 18vw;
+    color: #00ff04;
+    text-align: right;
     line-height: 100%;
+    background-color: 080001;
+    overflow: hidden;
+    border-radius: 3vw;
+    height: auto;
+    margin: 20px;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    margin-bottom: 5vw;
+    padding-right: 3vw;
 }
 .title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
+    color: #ffffff;
+    font-size: 9vw;
+    font-weight: 900;
+    letter-spacing: 1vw;
+    margin-bottom: 5vw;
+}
+.wrapper {
+    display: flex-inline;
+    flex: 1;
+    margin: 2vw;
+}
+.add {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
 }
