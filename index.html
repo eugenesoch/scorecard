@@ -1,36 +1,39 @@
 <html>
-  <head>
+
+<head>
     <link rel="stylesheet" href="index.css" />
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container">
-      <div class="wrapper">
-        <h3 class="title">HOME</h3>
-        <div class="score">
-          <h2 id="home">0</h2>
+        <div class="wrapper">
+            <h3 class="title">HOME</h3>
+            <div class="score">
+                <h2 id="home">0</h2>
+            </div>
+            <div class="add">
+                <button onclick="h1()">+1</button>
+                <button onclick="h2()">+2</button>
+                <button onclick="h3()">+3</button>
+            </div>
         </div>
-        <div class="add">
-          <button onclick="h1()">+1</button>
-          <button onclick="h2()">+2</button>
-          <button onclick="h3()">+3</button>
+        <div class="wrapper">
+            <h3 class="title">GUEST</h3>
+            <div class="score">
+                <h2 id="guest">0</h2>
+            </div>
+            <div class="add">
+                <button onclick="g1()">+1</button>
+                <button onclick="g2()">+2</button>
+                <button onclick="g3()">+3</button>
+            </div>
         </div>
-      </div>
-      <div class="wrapper">
-        <h3 class="title">GUEST</h3>
-        <div class="score">
-          <h2 id="guest">0</h2>
-        </div>
-        <div class="add">
-          <button onclick="g1()">+1</button>
-          <button onclick="g2()">+2</button>
-          <button onclick="g3()">+3</button>
-        </div>
-      </div>
     </div>
     <div class="container">
-      <button onclick="reset()" class="reset" >New Game</button>
+        <button onclick="reset()" class="reset">New Game</button>
     </div>
 
     <script src="index.js"></script>
-  </body>
+</body>
+
 </html>

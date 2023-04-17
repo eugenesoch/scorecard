@@ -7,7 +7,8 @@ function h1() {
     homeCount += 1
     homeScore.textContent = homeCount
     if (homeCount > guestCount) {
-        document.getElementById("guest").classList.add("red");
+        document.getElementById("guest").classList.remove(score);
+        document.getElementById("guest").classList.add(red);
 
     }
 }

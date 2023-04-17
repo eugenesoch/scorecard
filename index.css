@@ -101,6 +101,23 @@ h1, h2, h3, h4, h5 {
     padding-left: 3vw;
     min-width: 33vw;
 }
+.score-red {
+    font-size: 18vw;
+    color: #ff0000;
+    text-align: right;
+    line-height: 100%;
+    background-color: 080001;
+    overflow: hidden;
+    border-radius: 3vw;
+    height: auto;
+    margin: 20px;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
+    margin-bottom: 5vw;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    min-width: 33vw;
+}
 .title {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
