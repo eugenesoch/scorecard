@@ -1,5 +1,3 @@
-// javascript
-
 let homeScore = document.getElementById("home")
 let guestScore = document.getElementById("guest")
 let homeCount = 0
@@ -8,6 +6,10 @@ let guestCount = 0
 function h1() {
     homeCount += 1
     homeScore.textContent = homeCount
+    if (homeCount > guestCount) {
+        document.getElementById("guest").classList.add("red");
+
+    }
 }
 function h2() {
     homeCount += 2
@@ -34,4 +36,12 @@ function g3() {
 
 if (guestScore < homeScore) {
     document.getElementById("guest").classList.add(red);
+}
+
+function reset () {
+    homeCount = 0
+    guestCount = 0
+    homeScore.textContent = 0
+    guestScore.textContent = 0
+  
 }

@@ -123,3 +123,17 @@ h1, h2, h3, h4, h5 {
 .red {
     color: red;
 }
+.reset {
+    font-family: CT;
+    color: #9AABD8;
+    background-color: transparent;
+    border-radius: 2vw;
+    height: 9vw;
+    border-color: #9AABD8;
+    border-style: solid;
+    font-size: 4vw;
+}
+.reset:hover {
+    color: #ffffff;
+    background-color: hsla(226, 43%, 73%, 0.15);
+}
