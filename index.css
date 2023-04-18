@@ -52,7 +52,6 @@ table {
     src: url(CursedTimerUlil-Aznm.ttf);
 }
 body {
-    margin: 0;
     background-color: #1B244A;
     padding: 3vw;
 }
@@ -62,7 +61,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     justify-content: space-around;
-    max-width: 80%;
+    max-width: 1200px;
 }
 
 h1, h2, h3, h4, h5 {
