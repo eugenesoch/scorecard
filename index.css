@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .score {
-    font-size: 180px;
+    font-size: 12vw;
     padding: 40px 40px 40px 40px;
     color: #00ff04;
     text-align: right;
